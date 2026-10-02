@@ -1,0 +1,126 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer shadow of the main gear -->
+    <path
+        android:pathData="M 48,22 L 53,22 L 54,27 L 59,29 L 63,25 L 67,29 L 65,34 L 69,37 L 74,35 L 76,40 L 71,43 L 73,48 L 78,50 L 78,55 L 73,57 L 71,62 L 76,65 L 74,70 L 69,68 L 65,71 L 67,76 L 63,80 L 59,76 L 54,78 L 53,83 L 48,83 L 47,78 L 42,76 L 38,80 L 34,76 L 36,71 L 32,68 L 27,70 L 25,65 L 30,62 L 28,57 L 23,55 L 23,50 L 28,48 L 30,43 L 25,40 L 27,35 L 32,37 L 36,34 L 34,29 L 38,25 L 42,29 L 47,27 Z"
+        android:fillColor="#50000000" />
+
+    <!-- Main Titanium/Steel Gear Body -->
+    <path
+        android:pathData="M 47,21 L 52,21 L 53,26 L 58,28 L 62,24 L 66,28 L 64,33 L 68,36 L 73,34 L 75,39 L 70,42 L 72,47 L 77,49 L 77,54 L 72,56 L 70,61 L 75,64 L 73,69 L 68,67 L 64,70 L 66,75 L 62,79 L 58,75 L 53,77 L 52,82 L 47,82 L 46,77 L 41,75 L 37,79 L 33,75 L 35,70 L 31,67 L 26,69 L 24,64 L 29,61 L 27,56 L 22,54 L 22,49 L 27,47 L 29,42 L 24,39 L 26,34 L 31,36 L 35,33 L 33,28 L 37,24 L 41,28 L 46,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22"
+                android:startY="21"
+                android:endX="77"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E2E8F0" />
+                <item android:offset="0.3" android:color="#94A3B8" />
+                <item android:offset="0.7" android:color="#64748B" />
+                <item android:offset="1.0" android:color="#334155" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Gear Bevel Ring Highlight -->
+    <path
+        android:pathData="M49.5,51.5m-20,0a20,20 0,1,1 40,0a20,20 0,1,1 -40,0"
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000" />
+
+    <!-- Gear Recessed Web -->
+    <path
+        android:pathData="M49.5,51.5m-18,0a18,18 0,1,1 36,0a18,18 0,1,1 -36,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="31.5"
+                android:startY="33.5"
+                android:endX="67.5"
+                android:endY="69.5"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1E293B" />
+                <item android:offset="1.0" android:color="#0F172A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Spoke Cutouts -->
+    <path
+        android:pathData="M 49.5,37 A 14.5,14.5 0 0,1 62,44 L 57,47 A 8,8 0 0,0 49.5,43.5 Z"
+        android:fillColor="#090D16" />
+    <path
+        android:pathData="M 64,51.5 A 14.5,14.5 0 0,1 57,64 L 54,58.5 A 8,8 0 0,0 57.5,51.5 Z"
+        android:fillColor="#090D16" />
+    <path
+        android:pathData="M 49.5,66 A 14.5,14.5 0 0,1 37,59 L 42,56 A 8,8 0 0,0 49.5,59.5 Z"
+        android:fillColor="#090D16" />
+    <path
+        android:pathData="M 35,51.5 A 14.5,14.5 0 0,1 42,39 L 45,44.5 A 8,8 0 0,0 41.5,51.5 Z"
+        android:fillColor="#090D16" />
+
+    <!-- Center Brass Hub -->
+    <path
+        android:pathData="M49.5,51.5m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42.5"
+                android:startY="44.5"
+                android:endX="56.5"
+                android:endY="58.5"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDE047" />
+                <item android:offset="0.5" android:color="#CA8A04" />
+                <item android:offset="1.0" android:color="#854D0E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Shaft Keyway Bolt -->
+    <path
+        android:pathData="M49.5,51.5m-3.5,0a3.5,3.5 0,1,1 7,0a3.5,3.5 0,1,1 -7,0"
+        android:fillColor="#0F172A" />
+    <path
+        android:pathData="M 47.5,50.5 L 51.5,50.5 L 51.5,52.5 L 47.5,52.5 Z"
+        android:fillColor="#94A3B8" />
+
+    <!-- Interlocking Smaller Gold Gear (Top Right) -->
+    <path
+        android:pathData="M 72,25 L 75,25 L 76,28 L 79,29 L 81,27 L 83,29 L 82,32 L 85,34 L 88,33 L 89,36 L 86,38 L 87,41 L 90,42 L 89,45 L 86,46 L 85,49 L 87,51 L 85,53 L 82,52 L 80,54 L 80,57 L 77,57 L 76,54 L 73,53 L 71,55 L 69,53 L 70,50 L 67,48 L 64,49 L 63,46 L 66,44 L 65,41 L 62,40 L 63,37 L 66,36 L 67,33 L 65,31 L 67,29 L 70,30 L 72,28 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="62"
+                android:startY="25"
+                android:endX="90"
+                android:endY="57"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDE68A" />
+                <item android:offset="0.4" android:color="#F59E0B" />
+                <item android:offset="0.8" android:color="#B45309" />
+                <item android:offset="1.0" android:color="#78350F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Gold gear center -->
+    <path
+        android:pathData="M76,41m-5,0a5,5 0,1,1 10,0a5,5 0,1,1 -10,0"
+        android:fillColor="#1E293B" />
+    <path
+        android:pathData="M76,41m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0"
+        android:fillColor="#FDE68A" />
+
+    <!-- Meshing Energy Spark (Cyan / Green 5D energy pulse) -->
+    <path
+        android:pathData="M66,35m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0"
+        android:fillColor="#22D3EE" />
+    <path
+        android:pathData="M 64.5,35 L 67.5,35 M 66,33.5 L 66,36.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8" />
+</vector>

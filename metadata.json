@@ -1,0 +1,6 @@
+{
+  "name": "GearForge",
+  "description": "A premium futuristic 3D mechanical gear puzzle game with realistic physics, 500+ levels, multi-layer depth, and custom machinery simulation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
